@@ -5,7 +5,7 @@ Elevator Management System Application developed using C++
 You are given a task of implementing the elevator(lift) system using the CLI
 
 ### Level 1
- - Get the details, such as **lift count** and **current floor** of each lift, from the user.
+ - Get the details, such as **_lift count_** and **_current floor_** of each lift, from the user.
  - Display the details after getting the input.
 
 > [!NOTE]
@@ -22,7 +22,7 @@ Floor: 0  0  0  0  0
 ```
 
 ### Level 2
- - Get the **current floor** and **destination floor** from the user.
+ - Get the **_current floor_** and **_destination floor_** from the user.
  - Assign the lift which is nearest to the person.
  - If more than one lift is available at the nearest floor, pick a random one.
  - Display the position of the lifts after the person has travelled.
@@ -66,7 +66,7 @@ Floor: 5     2      0     0     0
   - If more than one lift exists after the above constraints, pick a random one.
  
 ### Level 5
-- Get the **lifetime** of the lifts from the user at the beginning of the program. The **lifetime** denotes the number of times the lift can be operated without maintenance.
+- Get the **_lifetime_** of the lifts from the user at the beginning of the program. The **_lifetime_** denotes the number of times the lift can be operated without maintenance.
 - Once the lift has been operated the **lifetime** number of times, it should be marked as maintenance mode and should not be assigned for one cycle.
 - In the next cycle, the lift will resume operation from the ground floor, and the last known direction of the lift should be cleared.
 
