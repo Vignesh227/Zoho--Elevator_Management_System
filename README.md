@@ -66,7 +66,7 @@ Floor: 5     2      0     0     0
   - If more than one lift exists after the above constraints, pick a random one.
  
 ### Level 5
-- Ge the **lifetime** of the lifts from the user at the beginning of the program. The **lifetime** denotes the number of times the lift can be operated without maintenance.
+- Get the **lifetime** of the lifts from the user at the beginning of the program. The **lifetime** denotes the number of times the lift can be operated without maintenance.
 - Once the lift has been operated the **lifetime** number of times, it should be marked as maintenance mode and should not be assigned for one cycle.
 - In the next cycle, the lift will resume operation from the ground floor, and the last known direction of the lift should be cleared.
 
