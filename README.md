@@ -88,6 +88,35 @@ Lifts: L1(+) L2()  L3(+)  L4()  L5()
 Floor: 5     0      5     0     0
 ```
 
+## Solution
+The Elevator Management System has been implemented to address all five levels of functionality as outlined.
+
+### Level 1: Basic Lift Information
+The program prompts the user to input the number of lifts and the current floor for each lift. It then displays these details in a formatted output to provide a clear view of the lift system's status.
+
+### Level 2: Lift Assignment Based on Proximity (Distance)
+The system calculates the distance of each lift from the user's current floor and assigns the nearest lift. The updated positions of the lifts are then displayed.
+
+### Level 3: Continuous Operation with Direction Display
+The program continually processes user requests until an exit command is given. It keeps track of each lift's current floor, updates their positions based on user input, and displays their movement direction (+ for up, - for down, and () for no movement).
+
+### Level 4: Advanced Lift Assignment Constraints
+- Prefer lifts moving in the same direction as the user's destination.
+- Assign odd-numbered lifts to odd floors and even-numbered lifts to even floors.
+- In case of further ties, a random lift is chosen.
+
+### Level 5: Lifetime and Maintenance Mode
+The system includes functionality to track the number of operations for each lift. Once a lift reaches its operational limit (lifetime), it is marked for maintenance and excluded from assignment until it resets in the next cycle. Maintenance lifts resume operation from the ground floor, and their last known direction is cleared.
+
+## Output Screenshots
+
+![image](https://github.com/user-attachments/assets/950052a3-b0b3-4187-9982-dbb1d50b536e)
+![image](https://github.com/user-attachments/assets/c44a704e-a7c1-45cc-a8a6-81b4b2a452a1)
+![image](https://github.com/user-attachments/assets/2e3ee928-76cc-4755-a9bb-cacfb27c95d1)
+![image](https://github.com/user-attachments/assets/9c48fa4f-9208-4a3f-8570-fca89c9e7333)
+![image](https://github.com/user-attachments/assets/d9254ad9-1590-419c-95f3-987d87c57ffe)
+
+
 
 
 
