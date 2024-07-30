@@ -1,5 +1,5 @@
 # Zoho -- Elevator-Management-System
-Elevator Management System Application developed using C++
+Elevator Management System Application developed using `C++`
 
 ## Question
 You are given a task of implementing the elevator(lift) system using the CLI
